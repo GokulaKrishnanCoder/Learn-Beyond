@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color: blueviolet;
+    color: white;
+    height: 100x;
+    padding: 40px;
+    font-family: sans-serif;
+}
+h1,li,ul{
+    display: flex;
+    display:inline;
+}
+h1{
+    font-size: 40px;
+}
+ul{
+    margin-left: 65%;
+}
+li{
+    font-size: 25px;
+}
+
+
+input{
+    display:inline;
+    padding:20px;
+    width: 60%;
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+    
+}
+input{
+    border-radius: 10px;
+}
+.inner{
+
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-left: 13%;
+}
+.container{
+    display: inline-block;
+    border-width: 2px;
+    border-color: rgb(57, 56, 56);
+    border-style: solid;
+    width: 260px;
+    text-align: center;
+    margin: 10px;
+    
+}
+img{
+    
+    padding-top: 2px;
+}
+p{
+    padding: 0;
+    color: black;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+
+}
+p:hover{
+    background-color:blueviolet;
+    color:white;
+}
+.footer{
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    background-color:blueviolet;
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    font-family: sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color: white;
+}
+mark{
+    background-color: blueviolet;
+    font-weight: bolder;
+    color:violet;
+}

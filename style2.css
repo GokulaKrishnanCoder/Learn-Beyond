@@ -1,0 +1,97 @@
+body{
+    
+    background-color:blueviolet;
+}
+.home{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    background-color:white;
+    color: violet;
+    border-width: 0px; 
+    transition: transform .2s; /* Animation */
+    
+}
+.home:hover{
+    transition: scale(1.5);
+}
+.context{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    margin-top:50px;
+    width: 1000px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: azure;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+    font-family: sans-serif;
+    
+
+}
+.container{
+    margin-right: 250px;
+}
+input{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 1rem;
+    height: 39px;
+    padding-left: 2rem;
+    border: none;
+    color: blueviolet;
+    font-family: sans-serif;
+    border-width: 0;
+    
+}
+td{
+    font-size: 20px;
+    color: white;
+    
+}
+.Login{
+    margin-top: 40px;
+    margin-left:160%;
+    height: 30px;
+    border-radius: 25px;
+    border:none;
+    width: 100px;
+    font-size: 1rem;
+    color: blueviolet;
+    cursor: pointer;
+}
+img{
+    border-radius: 25px;
+    height: 550px;
+}
+mark{
+    background-color: blueviolet;
+    color: violet;
+}
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color: violet;
+
+}
+h4{
+    margin-left: 8rem;
+    color:white;
+}
+input:focus{
+    outline: none;
+
+}
+button:focus{
+    outline: none;
+}
