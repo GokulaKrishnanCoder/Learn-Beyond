@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Beyond</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = script.js></script>
+</head>
+<body>
+    <div class = "header">
+        <nav>
+           
+            
+            <h1>Learn Now </h1>
+            
+            <ul>
+                <li><a href=index.html >Home |</a> </li>
+                <li><a href=index2.html>Login |</a> </li>
+                <li><a href=index3.html>Register</a></li>
+            </ul>
+        </nav>
+        <h1 id="welcomeText" style="display: none;">
+            Welcome, <span id="displayName"></span> 🎉
+        </h1>
+        
+        <script>
+            // ✅ Retrieve the username from localStorage
+            var name = localStorage.getItem("username");
+
+            // ✅ Check if name exists
+            if (name && name !== "null" && name !== "") {
+                // ✅ If name exists, display the welcome message
+                document.getElementById("displayName").innerText = name;
+                document.getElementById("welcomeText").style.display = "block";
+            } 
+        </script>
+    </div>
+    <div class = "searchbar">
+        <input style="font-size: large;" placeholder="Search a Course">
+    </div>
+    <div class = "courses">
+        <div class=" inner">
+        <div class="container">
+            <a href="https://youtu.be/qz0aGYrrlhU?feature=shared">
+            <img src=".\images\html.svg" width="250px">
+            <p>HTML is the standard language for creating web pages. It structures content using tags like headings, paragraphs, and
+            images.</p>
+            </a>
+        </div>
+        <div class="container">
+            <a href="https://youtu.be/OXGznpKZ_sA?feature=shared">
+            <img src=".\images\css-3.svg" width="177px">
+            <p>CSS styles the web pages by controlling the layout, colors, fonts, and design, ensuring visually appealing and
+            responsive websites.</p></a>
+        </div>
+        <div class="container">
+            <a href="https://youtu.be/eIrMbAQSU34?feature=shared">
+            <img src=".\images\java.svg" width="185px">
+            <p>Java is a high-level, object-oriented programming language widely used for web development, mobile applications, and
+            enterprise software.</p>
+            </a>
+        </div>
+        <div class="container">
+            <a href="https://youtu.be/W6NZfCO5SIk?feature=shared">
+            <img src=".\images\javascript-js.svg" width="247px">
+            <p>JavaScript is a programming language used to add interactivity to websites, like buttons, forms, dynamic content, and
+            animations.</p>
+            </a>
+        </div>
+        <div class="container">
+            <a href="https://youtu.be/_uQrJ0TkZlc?feature=shared">
+            <img src=".\images\python.svg" width="247px">
+            <p>Python is a versatile, high-level programming language known for simplicity, widely used in web development, data
+            science, and automation.</p>
+            </a>
+        </div>
+        <div class="container">
+            <a href="https://youtu.be/KJgsSFOSQv0?feature=shared">
+            <img src=".\images\c.png" width="247px">
+            <p>C is a powerful, general-purpose programming language used for system programming, developing operating systems, and
+            embedded systems.</p>
+            </a>
+        </div>
+        </div>
+    </div>
+  
+    <div class = "footer">
+        <h3>Still have queries ? Contact Us</h3><br>
+        <h5>Request a Callback. An expert from the admissions office will call you in the next 24 working hours.<br> You can also reach out to us at <mark>Learnbeyond.org.in</mark> or <mark>+91-9944324067</mark></h5>
+    </div>
+
+    
+</body>
+</html>

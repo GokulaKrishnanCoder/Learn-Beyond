@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: blueviolet;
+    color: white;
+    height: 120px;
+    padding: 20px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 80px;
+    margin-right: 15px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.header h4 {
+    font-size: 18px;
+}
+
+/* Navigation bar (Home, Login, etc.) */
+ul {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    font-size: 22px;
+}
+
+/* Search Bar */
+.searchbar {
+    padding: 50px;
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+/* Course Container */
+.inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.container {
+    border-width: 2px;
+    border-color: rgb(57, 56, 56);
+    border-style: solid;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+   
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    
+}
+
+p {
+    padding: 10px 0;
+    color: black;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+p:hover {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: white;
+}
+
+mark {
+    background-color: blueviolet;
+    font-weight: bolder;
+    color: violet;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+    .inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    ul {
+        margin-left: 10%;
+    }
+}
